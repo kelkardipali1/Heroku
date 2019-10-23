@@ -17,6 +17,6 @@ stg-deploy:
     - apt-get update -qy
     - apt-get install -y ruby-dev
     - gem install dpl
-    - dpl --provider=heroku --app=winter-soldiers-wallet-service --api-key=$HEROKU_TOKEN
+    - dpl --provider=heroku --app=dipalinewapp --api-key=$HEROKU_TOKEN
   only:
     - master
